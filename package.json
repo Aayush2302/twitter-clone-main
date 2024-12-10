@@ -5,8 +5,8 @@
   "main": "Backend/server.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon Backend/server.js",
-  "start": "npm run build && cross-env NODE_ENV=production node Backend/server.js",
-  "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "npm run build && cross-env NODE_ENV=production node Backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "aayush",
   "type": "module",
